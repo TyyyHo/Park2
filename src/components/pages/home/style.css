@@ -1,0 +1,802 @@
+/* .home{
+    margin-top: 100px;
+    font-weight: 900;
+    text-align: center;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+#home_headerbg{
+    height: 56px;
+    width: 100vw;
+    background-color: #EAEAEA;
+}
+
+/* 首頁活動輪播 */
+#home_sliderArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    width: 100vw;
+    /* height: 500px; */
+    background-color: rgb(0, 0, 0);
+}
+
+.home_buttom {
+    width: 100vw;
+}
+
+/* 關於park2 */
+#home_aboutArea {
+    background-color: #B3E24D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#home_aboutArea p {
+    width: 80vw;
+}
+
+#home_aboutContent {
+    /* padding: 10px; */
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#home_aboutArea img {
+    padding-top: 15px;
+    width: 70px;
+}
+
+/* 官方公告 */
+#home_newsArea {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#home_news {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+#home_newsImg {
+    width: 500px;
+    height: 356px;
+    /* width: 50%; */
+    /* border: 1px solid #000000; */
+}
+
+#home_newsImg img {
+    box-sizing: border-box;
+    width: 95%;
+    height: 95%;
+    object-fit:cover;
+    border: 5px solid white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#home_newsContent {
+    width: calc(100% - 400px);;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+#home_newsContent span {
+    /* color: red; */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* .home_newsDate {
+    color: gray!important;
+    font-size: 10px!important;
+} */
+
+
+#home_newsContent p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#home_newsContent img {
+    padding-top: 5px;
+    width: 30px;
+    height: 35px;
+}
+
+#home_newsContent div:nth-child(odd) {
+    border-bottom: 1.5px solid #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_newsDateTitle .home_newsDate {
+    color: rgb(172, 172, 172);
+    font-size: 15px !important;
+}
+
+@media (max-width: 750px) {
+    #home_news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #home_newsImg {
+        width: 100%;
+    }
+    #home_newsContent {
+        width: 100%;
+    }
+}
+
+
+
+/* FAQ */
+#home_FAQArea {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#home_FAQ{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#home_FAQ_R{
+    /* width: 20%;  */
+    height:400px ;
+    margin-bottom: 0px;
+}
+@media (max-width: 750px) {
+    #home_FAQ_R{
+        display: none;
+    }
+    #home_FAQ{
+    justify-content:center;
+    }
+
+}
+#home_FAQContent {
+    width: 75%;
+    padding-left: 15%;
+    /* border: 2px solid #B3E24D; */
+}
+
+#home_FAQContent img {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #B3E24D; */
+}
+
+#home_FAQContent div:nth-child(odd) {
+    border-bottom: 1.5px solid #B3E24D;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+#home_FAQContent span {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    /* border: 1px solid #B3E24D; */
+}
+
+#home_FAQContent p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* 即時天氣 */
+#home_weatherArea {
+    width: 100%;
+    background-image: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#home_weather {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#home_weatherNow {
+    width: 20%;
+    /* border: 1px solid #000000; */
+}
+
+#home_weather72 {
+    width: 80%;
+    /* border: 1px solid #000000; */
+}
+
+#home_weatherNow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home_weatherLoc {
+    color: #333333;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+
+#home_weatherNowTem {
+    color: #333333;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#home_weatherNowIcon img {
+    /* font-size: 50px; */
+    /* text-align: center; */
+    width: 60%;
+}
+
+#home_weatherNowRain {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#home_weatherDate {
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#home_weatherDate span {
+    color: #333333;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.displaydate {
+    font-weight: 800 !important;
+    border-bottom: 5px solid #B3E24D;
+}
+
+#home_weatherDrop {
+    white-space: nowrap;
+    overflow-x: scroll;
+    display: flex;
+    user-select:none;
+}
+
+/* 隱藏滾動條 */
+/* #home_weatherDrop::-webkit-scrollbar{
+    width:0px ;
+} */
+.home_weatherDrop {
+    padding: 10px;
+    /* border: 1px solid; */
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home_weatherTime {
+    width: 10vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home_weatherTem {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home_weatherIcon img {
+    width: 60%;
+}
+
+.home_weatherRain {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* 交通資訊 */
+#home_transArea {
+    width: 100%;
+    background-color: #B3E24D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#home_trans {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+#home_transMap {
+    max-width:500px ;
+    /* border: 1px solid #000000; */
+}
+
+#home_transInfo {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    background-color: #000000;
+    margin-left: 30px;
+    /* border: 1px solid #ff0000; */
+}
+
+#home_transInfoPub {
+    padding: 20px;
+}
+
+#home_transInfoCar {
+    padding: 20px;
+}
+
+.home_transTitle {
+    width: 130px;
+    height: 35px;
+    background-color: #B3E24D;
+    font-size: 20px;
+    font-weight: 700;
+    transform: skew(-20deg);
+}
+
+.home_transTitle p {
+    color: #000000;
+    transform: skew(20deg);
+}
+
+#home_transInfoPub span,
+#home_transInfoCar span {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.home_transCont {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+#home_transInfoPub img,
+#home_transInfoCar img {
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+}
+
+#home_transInfoPub div:nth-child(even),
+#home_transInfoCar div:nth-child(even) {
+    border-bottom: 1.5px solid #B3E24D;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 交通資訊跑馬燈 */
+/* .home_marquee {
+    height: 30px;
+    width: 80%;
+    border-radius: 3px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.home_marquee div {
+    display: block;
+    width: 200%;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 40s linear infinite;
+}
+
+.home_marquee span {
+    float: left;
+    width: 100%;
+    padding: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@keyframes marquee {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -200%;
+    }
+} */
+
+
+/* 地圖 */
+#home_transMap {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: flex-start;
+    /* background-color: #B3E24D; */
+}
+
+#home_transMapT {
+    width: 450px;
+    height: 30px;
+    background-color: black;
+    transform: skew(-30deg);
+}
+
+#home_transMap1 {
+    width: 450px;
+    height: 350px;
+    background-color: #F1FFD2;
+    box-sizing: border-box;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_transMap2 {
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    background-color: #EAEAEA;
+    position: relative;
+}
+
+#home_transGoogle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home_transMapArrow {
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+    height: 30px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 4px 4px 0px 0px;
+    background-color: #000000;
+    /* background-color: #B3E24D; */
+    overflow: hidden;
+}
+
+#home_transMapArrow img {
+    height: 100%;
+    float: right;
+}
+
+#home_transMapR {
+    margin-top: -15px;
+    width: 17px;
+    height: 350px;
+    background-color: black;
+    transform: skew(0, -60deg);
+}
+
+@media (max-width: 991px) {
+    #home_trans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #home_transMap {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto 0;
+        justify-content:center;
+        align-content: center;
+        flex-direction: column;
+    }
+    #home_transMapT {
+        margin-left: 9px;
+    }
+    #home_transMapR {
+        margin-top: 0px;
+        margin-left: -9px;
+    }
+
+    #home_transMap1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #home_transInfo {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+
+/* News展開收合 */
+.flipNews {
+    text-align: left;
+    cursor: pointer;
+}
+
+.panelNews0 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+
+.panelNews1 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+.panelNews2 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+
+.panelNews3 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+.panelNews4 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+.panelNews5 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+.panelNews6 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+.panelNews7 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}
+
+
+
+/* FAQ向下展開 */
+
+.flipFAQ {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #E09697; */
+    cursor: pointer;
+}
+
+.panelFAQ0 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+.panelFAQ1 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+
+.panelFAQ2 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+.panelFAQ3 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+.panelFAQ4 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+.panelFAQ5 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+.panelFAQ6 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+.panelFAQ7 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+
+
+
+
+
+
+
+.flip8 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #E09697; */
+    cursor: pointer;
+}
+
+.panel8 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+.flip9 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #E09697; */
+    cursor: pointer;
+}
+
+.panel9 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+.flip10 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #E09697; */
+    cursor: pointer;
+}
+
+.panel10 {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+    /* background: #e5eecc; */
+    /* border: solid 1px #c3c3c3; */
+    display: none;
+}
+
+
+/* 跑馬燈 */
+.marquee-block{
+    width: 80%;
+    background-color: #000;
+    border-radius: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .marquee-block .marquee{
+    position: relative;
+    padding: 10px 20px;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .marquee-block p{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+
+
+
+
