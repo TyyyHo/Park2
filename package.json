@@ -2,7 +2,7 @@
   "name": "park2-front-desk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tyyyho.github.io/Park2/",
+  "homepage": "https://tyyyho.github.io/map",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
