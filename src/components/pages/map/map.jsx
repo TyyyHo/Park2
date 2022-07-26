@@ -9,23 +9,30 @@ import SearchBar from "./component/map_searchBar";
 import Card from "./component/map_card";
 import SwitchBtn from "./component/map_switch";
 import SideBar from "./component/map_sideBar";
-import Mobile_bg from "./component/map_mobile_bg"
+import Mobile_bg from "./component/map_mobile_bg";
 
 // api
 import { getStore } from "../../../api/storeApi";
+import { demoData } from "./demoData";
 
 const Map = () => {
   const [data, setdata] = useState([]);
 
   useEffect(() => {
-    getStore().then((result) => {
-      setdata(result);
-    });
+    // api
+    // getStore().then((result) => {
+    //   setdata(result);
+    // });
+
+    // 無後端時資料
+    setdata(demoData)
   }, []);
 
   useEffect(() => {
-    myJS(data);
-  },[data]);
+    if (data[0]) {
+      myJS(data);
+    }
+  }, [data]);
 
   return (
     <div class="map-container">

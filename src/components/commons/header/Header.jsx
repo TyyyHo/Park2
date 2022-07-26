@@ -140,7 +140,7 @@ class Header extends Component {
         })
 
         //現在天氣
-        console.log(temp_data[0])
+        // console.log(temp_data[0])
         $('.weather-block').html(`
               <img className="w-icon" src="/icon/weather/${wx_data[0]}.svg" alt="" />
               <div className="temperature">${temp_data[0]}°C</div>

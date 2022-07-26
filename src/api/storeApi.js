@@ -21,6 +21,8 @@ function handleReq(e) {
 export function getStore() {
     return handleReq(reqObj.get('/store/all/get'))
 }
+
+
 export function getStoreImg(id) {
     console.log(
         reqObj.get('/admin/store/get/file/multiple', {

@@ -28,14 +28,6 @@ class App extends Component {
                         <Route path="/store/:storeId" component={StoreEach} />
                         <Route path="/stationed" component={Stationed} />
                     </Switch>
-                    {/* <Switch>
-              <Route path="/" component={Home} exact/>
-              <Route path="/Park2/Index" component={Home} />
-              <Route path="/Park2/Activity" component={Activity} />
-              <Route path="/Park2/Map" component={Map} />
-              <Route path="/Park2/Store" component={Store} />
-              <Route path="/Park2/Stationed" component={Stationed} />
-            </Switch> */}
                 </BrowserRouter>
                 <Footer />
             </React.Fragment>
