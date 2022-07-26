@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/park2/static/css/main.150de06f.css",
-    "main.js": "/park2/static/js/main.6b8c25cc.js",
+    "main.js": "/park2/static/js/main.9dafe7fb.js",
     "static/media/park2-all.svg": "/park2/static/media/park2-all.7d6ada847428575c71031e7f485edafe.svg",
     "index.html": "/park2/index.html",
     "static/media/search.svg": "/park2/static/media/search.37cf9a099be1df5c9345.svg",
     "main.150de06f.css.map": "/park2/static/css/main.150de06f.css.map",
-    "main.6b8c25cc.js.map": "/park2/static/js/main.6b8c25cc.js.map"
+    "main.9dafe7fb.js.map": "/park2/static/js/main.9dafe7fb.js.map"
   },
   "entrypoints": [
     "static/css/main.150de06f.css",
-    "static/js/main.6b8c25cc.js"
+    "static/js/main.9dafe7fb.js"
   ]
 }
