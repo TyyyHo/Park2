@@ -6,6 +6,7 @@ class Card extends Component {
       <div>
         <div id="infoCard">
           <img id="cardImg" src="map/park2.jpg" alt="" />
+          {/* <img id="cardImg" src="https://github.com/TyyyHo/Park2/blob/main/public/map/park2.jpg" alt="" /> */}
           <div id="storeName">Park2草悟廣場</div>
           <div id="cardText"></div>
           <a href="" id="cardAncher">
