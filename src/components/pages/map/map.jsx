@@ -12,7 +12,7 @@ import SideBar from "./component/map_sideBar";
 import Mobile_bg from "./component/map_mobile_bg"
 
 // api
-import { getStore } from "../../../api/storeApi";
+// import { getStore } from "../../../api/storeApi";
 import { demoData } from "./demoData";
 
 const Map = () => {
@@ -44,5 +44,4 @@ const Map = () => {
   );
 };
 
-// export { Map };
 export default Map;
