@@ -24,7 +24,7 @@ export const demoData = [
         "sto_info": " 就是這個味道 泱茶讓茶有更多可能\n 雲芝莓果派對\n 酸甜好滋味，採用百分百鮮果\n 好喝的同時，也要喝的安心喔\n 甜心珍珠+紅玉鮮奶茶\n 台灣的在地好茶，順口又回甘\n 天然紅趜的珍珠，Q彈無負擔\n 香檸蜜烏龍\n 手工熬煮的黑糖，天然甘甜味\n 檸檬蜜搭配烏龍，酸甜好解渴\n 泱泱西瓜\n 粉色的夢幻感，拍照打卡最特別\n 細膩冰沙口感，天然的消暑聖品\n 感謝照片拍攝提供 @wty_food \n 品牌諮詢專線0800-520-066\n 台中草悟店-台中市英才路534號\n 竹北遠百店-竹北大遠百B2 誠品\n 日本池袋店-池袋東口PARCO本館B2\n 日本大阪店-大阪市日本橋一丁目17-22",
         "sto_sta": 1,
         "sto_main": 0,
-        "sto_first_img": "src/components/img/store/01_泱茶.jpeg",
+        "sto_first_img": "./src/components/img/store/01_泱茶.jpeg",
         "sto_floor": "1f"
     },
     {
@@ -52,7 +52,7 @@ export const demoData = [
         "sto_info": "【MISATO X 大福製作概念】\nPARK2草悟店限定\n新品節慶預報 - \n芋・塩つけ卵大福 / 芋頭塩奶皇大福\nMISATO in PARK2\n-\n蒐集公園的生活知覺\n在悠憩時光\n拾起每個柔軟包覆的感受\n大福製作概念便是 \n-\n用最柔軟的白皮外衣\n緩緩展開，輕輕包覆\n- 日常每種關於甜的感受\n   米弎豆・芋・塩つけ卵大福 禮盒\n   端午限定優惠活動\n- 禮盒優惠價格200元（原價220)\n《線上宅配》預訂請先填寫以下表單\nhttps://www.surveycake.com/s/RxoPy\n《現場購買》請至草悟PARK2現場直接購買或電話預購\n台中市西區英才路534號1F\n★若有相關問題，請於營業時間內（11:30-19:30）撥打電話詢問\n★連絡電話：0968-865-380",
         "sto_sta": 1,
         "sto_main": 0,
-        "sto_first_img": "https://github.com/TyyyHo/Park2/blob/main/src/components/img/store/02_%E7%B1%B3%E5%BC%8E%E8%B1%86.jpeg",
+        "sto_first_img": "https://github.com/TyyyHo/Park2/blob/main/src/components/img/store/02_米弎豆.jpeg",
         "sto_floor": "1f"
     },
     {
@@ -80,7 +80,7 @@ export const demoData = [
         "sto_info": "12am，00:00，midnight，在夜色裡交換日子的一瞬，同時坐擁一天的結束與開端。對我們來說，這個屬於過渡的片刻是全然自由的，每個人都能以自己的方式賦予它定義，也因此 12am 使我們對它深深著迷。在12am，你能找到完整日常儀式的那塊拼圖，讓儀式觸發轉化，點亮你對這一刻最個人化的定義。\n \n 12am 成立於 2022 年，午夜之光股份有限公司在台中 Park2 草悟廣場創立概念店，我們為你獻上翻新感官的提案，喚醒身體裡的每一個反叛細胞。我們著迷於 12am 這個時分，它代表著一日紛亂的結尾，也象徵著即將迎接新日光的起點，該如何定義，隨心而搖曳，每個人都能以自己的方式賦予它定義。在這私隱的時刻，12am 不拋擲任何評述，讓每份思緒都能恣意生長，並以溫柔的方式陪伴你們度過陰晴起伏。\n \n 我們堅信只要更有意識的體會每個平凡情景，便能增加生活的厚度。團隊致力於在世界各地蒐羅承載濃郁獨特風格的品牌，不斷探索能巧妙融入日常生活的單品。 12am 渴望為在生活中奔波的你，挑揀出能提升身心質感的物品，讓你的生活成為精選後的模樣。你可以放心地從 12am 官網訂購任何商品，我們保證所有的產品都是正品，皆是直接與品牌或官方經銷商處採購。",
         "sto_sta": 1,
         "sto_main": 1,
-        "sto_first_img": "http://localhost:3001/file/images/store/1657970597137--first_03_12AM.jpeg",
+        "sto_first_img": "../src/components/img/store/03_12AM.jpeg",
         "sto_floor": "1f"
     },
     {
