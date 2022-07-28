@@ -20,7 +20,7 @@ class App extends Component {
                 <Header />
                 <BrowserRouter>
                     <Switch>
-                        <Route path="/" component={Home} exact />
+                        <Route path="/park2" component={Home} exact />
                         <Route path="/activity" component={Activity} exact />
                         <Route path="/activity/:activityId" component={ActivityInfo} />
                         <Route path="map" component={Map} />
