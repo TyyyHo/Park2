@@ -8,7 +8,7 @@ class Card extends Component {
           <img id="cardImg" src="map/park2.jpg" alt="" />
           <div id="storeName">Park2草悟廣場</div>
           <div id="cardText"></div>
-          <a href="" id="cardAncher">
+          <a href="*" id="cardAncher">
             more
           </a>
           <div id="card_bg"></div>
