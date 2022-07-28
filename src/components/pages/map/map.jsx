@@ -13,14 +13,17 @@ import Mobile_bg from "./component/map_mobile_bg"
 
 // api
 import { getStore } from "../../../api/storeApi";
+import { demoData } from "./demoData";
 
 const Map = () => {
   const [data, setdata] = useState([]);
 
   useEffect(() => {
-    getStore().then((result) => {
-      setdata(result);
-    });
+    // getStore().then((result) => {
+    //   setdata(result);
+    // });
+
+    setdata(demoData)
   }, []);
 
   useEffect(() => {
