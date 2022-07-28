@@ -12,7 +12,7 @@ class Header extends Component {
       <div className="header">
         <nav className="navbar navbar-expand-lg">
           <a className="navbar-brand" href="/">
-            <img src="/home/logo.svg" alt="Park2_logo" />
+            <img src="home/logo.svg" alt="Park2_logo" />
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon">
@@ -142,7 +142,7 @@ class Header extends Component {
         //現在天氣
         console.log(temp_data[0])
         $('.weather-block').html(`
-              <img className="w-icon" src="/icon/weather/${wx_data[0]}.svg" alt="" />
+              <img className="w-icon" src="icon/weather/${wx_data[0]}.svg" alt="" />
               <div className="temperature">${temp_data[0]}°C</div>
               `);
 
