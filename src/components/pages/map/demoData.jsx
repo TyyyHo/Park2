@@ -24,7 +24,7 @@ export const demoData = [
         "sto_info": " 就是這個味道 泱茶讓茶有更多可能\n 雲芝莓果派對\n 酸甜好滋味，採用百分百鮮果\n 好喝的同時，也要喝的安心喔\n 甜心珍珠+紅玉鮮奶茶\n 台灣的在地好茶，順口又回甘\n 天然紅趜的珍珠，Q彈無負擔\n 香檸蜜烏龍\n 手工熬煮的黑糖，天然甘甜味\n 檸檬蜜搭配烏龍，酸甜好解渴\n 泱泱西瓜\n 粉色的夢幻感，拍照打卡最特別\n 細膩冰沙口感，天然的消暑聖品\n 感謝照片拍攝提供 @wty_food \n 品牌諮詢專線0800-520-066\n 台中草悟店-台中市英才路534號\n 竹北遠百店-竹北大遠百B2 誠品\n 日本池袋店-池袋東口PARCO本館B2\n 日本大阪店-大阪市日本橋一丁目17-22",
         "sto_sta": 1,
         "sto_main": 0,
-        "sto_first_img": "../src/components/img/store/01_泱茶.jpeg",
+        "sto_first_img": "src/components/img/store/01_泱茶.jpeg",
         "sto_floor": "1f"
     },
     {
@@ -52,7 +52,7 @@ export const demoData = [
         "sto_info": "【MISATO X 大福製作概念】\nPARK2草悟店限定\n新品節慶預報 - \n芋・塩つけ卵大福 / 芋頭塩奶皇大福\nMISATO in PARK2\n-\n蒐集公園的生活知覺\n在悠憩時光\n拾起每個柔軟包覆的感受\n大福製作概念便是 \n-\n用最柔軟的白皮外衣\n緩緩展開，輕輕包覆\n- 日常每種關於甜的感受\n   米弎豆・芋・塩つけ卵大福 禮盒\n   端午限定優惠活動\n- 禮盒優惠價格200元（原價220)\n《線上宅配》預訂請先填寫以下表單\nhttps://www.surveycake.com/s/RxoPy\n《現場購買》請至草悟PARK2現場直接購買或電話預購\n台中市西區英才路534號1F\n★若有相關問題，請於營業時間內（11:30-19:30）撥打電話詢問\n★連絡電話：0968-865-380",
         "sto_sta": 1,
         "sto_main": 0,
-        "sto_first_img": "../src/components/img/store/02_米弎豆.jpeg",
+        "sto_first_img": "https://github.com/TyyyHo/Park2/blob/main/src/components/img/store/02_%E7%B1%B3%E5%BC%8E%E8%B1%86.jpeg",
         "sto_floor": "1f"
     },
     {
