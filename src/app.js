@@ -20,10 +20,10 @@ class App extends Component {
                 <Header />
                 <BrowserRouter>
                     <Switch>
-                        <Route path="/park2" component={Home} exact />
+                        <Route path="/home" component={Home} exact />
                         <Route path="/activity" component={Activity} exact />
                         <Route path="/activity/:activityId" component={ActivityInfo} />
-                        <Route path="/map" component={Map} />
+                        <Route path="/" component={Map} />
                         <Route path="/store" component={Store} exact />
                         <Route path="/store/:storeId" component={StoreEach} />
                         <Route path="/stationed" component={Stationed} />
