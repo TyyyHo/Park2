@@ -19,23 +19,24 @@ class App extends Component {
             <React.Fragment>
                 <Header />
                 <BrowserRouter>
-                    <Switch>
-                        <Route path="/home" component={Home} exact />
+                    {/* <Switch>
+                        <Route path="/ark2/home" component={Home} exact />
                         <Route path="activity" component={Activity} exact />
                         <Route path="/activity/:activityId" component={ActivityInfo} />
                         <Route path="/" component={Map} />
                         <Route path="/store" component={Store} exact />
                         <Route path="/store/:storeId" component={StoreEach} />
                         <Route path="/stationed" component={Stationed} />
+                    </Switch> */}
+                    <Switch>
+                        <Route path="/Park2/home" component={Home} exact />
+                        <Route path="/Park2activity" component={Activity} exact />
+                        <Route path="/Park2/activity/:activityId" component={ActivityInfo} />
+                        <Route path="/" component={Map} />
+                        <Route path="/Park2/store" component={Store} exact />
+                        <Route path="/Park2/store/:storeId" component={StoreEach} />
+                        <Route path="/Park2/stationed" component={Stationed} />
                     </Switch>
-                    {/* <Switch>
-              <Route path="/" component={Home} exact/>
-              <Route path="/Park2/Index" component={Home} />
-              <Route path="/Park2/Activity" component={Activity} />
-              <Route path="/Park2/Map" component={Map} />
-              <Route path="/Park2/Store" component={Store} />
-              <Route path="/Park2/Stationed" component={Stationed} />
-            </Switch> */}
                 </BrowserRouter>
                 <Footer />
             </React.Fragment>
